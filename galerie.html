@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="de">
+<head>
+	<meta name="title" content=" Das Kunst Cafe Tartuffel in München">
+	<meta name="author" content="Qian Liu Webdesign">
+	
+	<meta name="description" content="Im Tartuffel genießt man das Essen mit Blick auf den wunderschönen Starnberger See.">
+	<meta name="abstract" content="Im Tartuffel genießt man das Essen mit Blick auf den wunderschönen Starnberger See.">
+	
+	<meta name="date" content="13.01.2022">
+	
+	<meta name="keywords" lang="de" content="Tartuffel, Starnberger See, das Restaurant, das Essen, events, Galerie, München">
+
+	<title> Tartuffel Cafe </title>
+
+    <!-- ANFANG KOPIE FADESHOW -->
+    <!-- Diese Datei muss eingebettet werden. -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+    <!-- Dieses Script führt die tatsächliche fadeshow durch-->
+    <script type="text/javascript" src="js/fadeslideshow.js"></script>
+
+    <!-- Hier werden die Bilder, deren Grösse bestimmt. --> 
+    <script type="text/javascript">
+    var mygallery=new fadeSlideShow({
+	// Die Box in der die Slideshow steckt. Muss unten eingebettet sein
+	wrapperid: "fadeshow", 
+	dimensions: [1100, 500], // Breite und Höhe der Galeriebilder
+	imagearray: [
+		["images/galerie1.jpg"],
+		["images/galerie2.jpg"],
+		["images/galerie3.jpg"] //<--Kein Abschlusskomma!!
+	],
+	displaymode: {type:'auto', pause:2000, cycles:0, wraparound:false}, 
+	persist: false, // Wird das letzte Bilder beim nächsten Besuch eingeblendet?
+	fadeduration: 2500, // Überblenden Dauer (millisekunden)
+	descreveal: "ondemand",
+	togglerid: ""
+})
+
+    </script>
+    <!-- ENDE KOPIE FADESHOW-->
+
+
+	<!-- ANFANG SOCIAL MEDIA ICONS -->
+	<script src="https://kit.fontawesome.com/2f24f9bf15.js" crossorigin="anonymous"></script>
+    <!-- ENDE SOCIAL MEDIA ICONS -->
+
+    <!-- ANFANG FONT-->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+	<!-- ENDE FONT-->
+	
+	<meta charset="utf-8">	
+	
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<!-- ANFANG MOBILE NAVI KOPIE HEAD -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- DIE CSS MUSS EBENFALLS KOPIERT WERDEN -->
+	<link rel="stylesheet" type="text/css" href="css/navi-ohne-listen.css">
+	<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+	</script>
+	<!-- ENDE MOBILE NAVI KOPIE HEAD -->	
+	
+</head>
+
+<body>
+
+<!-- EIN KOMMENTAR IN HTML -->
+
+<div id="mama">
+
+<div id="eins">
+   <header id="logo">
+	<h1> Tartuffel Cafe</h1>
+   </header>
+
+   <div id="icons">
+	<div class="social">
+    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+	</div>
+	<div class="social">
+	<a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+	</div>
+	<div class="social">
+	<a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+	</div>
+	
+   </div>
+</div>
+
+<!-- ANFANG DESKTOP NAVI -->
+<nav id="zwei">
+	<div id="navi">
+		<div class="navipunkt">
+		 	<a href="index.html">Tartuffel</a>
+		</div>
+
+		<div class="navipunkt">
+			<a href="restaurant.html">Restaurant</a>
+		</div>
+
+		<div class="navipunkt">
+			<a href="galerie.html"> Galerie </a>
+		</div>
+
+		<div class="navipunkt">
+			<a href="events.html"> Events </a>
+		</div>
+
+		<div class="navipunkt">
+			<a href="jobs.html"> Jobs </a>
+		</div>
+
+		<div class="navipunkt">
+			<a href="kontakt.html"> Kontakt & Abfahrt </a>
+		</div>
+		<div class="navipunkt">
+			<a href="impressum.pdf"> Impressum</a>
+		</div>
+	</div>
+</nav>
+<!-- ENDE DESKTOP NAVI -->
+
+<!-- ANFANG MOBILE NAVI -->
+<div class="topnav" id="myTopnav">	
+	<a href="index.html" class="active"> Tartuffel </a>
+	<a href="restaurant.html">Restaurant</a>
+	<a href="galerie.html"> Galerie </a>
+	<a href="events.html"> Events </a>
+	<a href="jobs.html"> Jobs </a>
+	<a href="kontakt.html"> Kontakt & Abfahrt </a>
+	<a href="impressum.pdf"> Impressum</a>
+
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+	<i class="fa fa-bars"></i> </a>
+</div>
+<!-- ENDE MOBILE NAVI -->
+
+
+
+	<!-- ANFANG GALERIE-->
+    <div id="galerie">
+
+	<header class="header-galerie">
+	<h3> ZUR GALERIE </h3>
+	</header>
+
+	<!-- ANFANG DESTOP FADESHOW-->
+	<div id="fadeshow"> </div>
+	<!-- ENDE DESTOP FADESHOW-->
+
+	<!-- ANFANG MOBILE FADESHOW-->
+	<div class="mobile-bilder">
+		 <img src="images/galerie4.jpg" width=100% alt="galerie4">
+		 <img src="images/galerie5.jpg" width=100% alt="galerie5">
+		 <img src="images/galerie6.jpg" width=100% alt="galerie6">
+	</div>
+	<!-- ENDE MOBILE FADESHOW-->
+
+	<div class="galerie-video">
+
+			<iframe class="wrapped-iframe" width="560" height="315" src="https://www.youtube-nocookie.com/embed/HufwMO7SCgk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
+
+	</div>
+
+
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
